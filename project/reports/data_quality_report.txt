@@ -1,0 +1,69 @@
+=== CONSOLIDATED EDA & DATA QUALITY REPORT ===
+
+--- EV Dataset Data Quality & EDA ---
+Total rows: 279780
+Total columns: 19
+
+Missing Values:
+county                           24
+city                             24
+zip_code                         24
+electric_range                   11
+legislative_district            700
+geocoded_column                 109
+electric_utility                 24
+_2020_census_tract               24
+:@computed_region_x4ys_rtnd    1813
+:@computed_region_fny7_vc3j     784
+:@computed_region_8ddd_yn5v     784
+
+Duplicate rows: 0
+
+Top 10 EV Makes:
+make
+TESLA         114847
+CHEVROLET      19261
+NISSAN         16164
+FORD           15347
+KIA            13938
+TOYOTA         11827
+BMW            11607
+HYUNDAI        10357
+RIVIAN          8863
+VOLKSWAGEN      7449
+
+Electric Range Statistics:
+count    279769.000000
+mean         39.172256
+std          78.230356
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%          32.000000
+max         337.000000
+
+----------------------------------------
+
+--- YouTube Videos Data Quality & EDA ---
+Total rows: 1053
+Total columns: 8
+
+Missing Values:
+description       130
+tags              347
+likes              19
+comments_count     10
+
+Duplicate video_ids: 0
+
+Engagement Statistics:
+              views         likes  comments_count
+count  1.053000e+03  1.034000e+03     1043.000000
+mean   5.809251e+05  9.997077e+03      315.133269
+std    3.977207e+06  8.098942e+04     1715.942872
+min    0.000000e+00  0.000000e+00        0.000000
+25%    8.910000e+02  1.325000e+01        1.000000
+50%    2.216400e+04  3.710000e+02       26.000000
+75%    2.562800e+05  3.322250e+03      146.000000
+max    1.142683e+08  2.301746e+06    31670.000000
+

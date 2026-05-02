@@ -1,0 +1,14 @@
+pandas # pandas is a py lib for data manipulation and analysis
+requests # requests is a py lib for making http requests
+openpyxl # openpyxl is a py lib for excel file
+python-dotenv
+matplotlib # for data visualization
+seaborn # for statistical data visualization
+jupyter # for interactive notebooks
+vaderSentiment # for sentiment analysis
+beautifulsoup4 # for web scraping
+scikit-learn # for machine learning
+xgboost # for gradient boosting
+lightgbm # for light gradient boosting
+catboost # for categorical boosting
+streamlit # for the web dashboard
